@@ -19,7 +19,7 @@ if(strlen($nome) < 3){
     return;
 }
 
-if(strlen($nome)){
+if(strlen($nome) > 40){
     echo 'O nome é muito extenso.';
     return;
 }
