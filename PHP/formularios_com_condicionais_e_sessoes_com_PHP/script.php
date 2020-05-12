@@ -9,6 +9,21 @@ $categorias = array(
 $nome = $_POST['nome'];
 $idade = $_POST['idade'];
 
+if(empty($nome)){
+    echo 'O nome não pode ser vazio.';
+    return;
+}
+
+if(strlen($nome) < 3){
+    echo 'O nome deve ter mais de 3 caracteres.';
+    return;
+}
+
+if(strlen($nome)){
+    echo 'O nome é muito extenso.';
+    return;
+}
+
 for ($i=0; $i < count($categorias); $i++) { 
 
     if($i == count($categorias) - 1){
