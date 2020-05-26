@@ -1,0 +1,18 @@
+Exercício 1:
+Crie uma data com a classe DateTime com a data e 
+hora atuais. Em seguida, subtraia 5 dias, 10 horas e 50 
+minutos dessa data e exiba o resultado no seguinte 
+formato:
+
+dia/mês/ano - hora:minuto:segundo
+
+Exercício 2:
+Crie uma função chamada divisao() que deverá 
+receber dois números. Na função verifique se algum 
+dos números passados por parâmetro é igual à 0, caso 
+positivo, lance uma exceção.
+
+Em seguida, escreva um algoritmo responsável por 
+executar a função divisao() forçando-a lançar a 
+exceção (passando 0 em algum parâmetro) e realize 
+o tratamento e captura através do Try Catch.
