@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cccc668a872cdf5be723a76a7ec86416",
+    "packages": [
+        {
+            "name": "eduardo0725/digital-cep",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Eduardo0725/digital-cep.git",
+                "reference": "9ba215f679d9b83586c82ad915418b8c96257025"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Eduardo0725/digital-cep/zipball/9ba215f679d9b83586c82ad915418b8c96257025",
+                "reference": "9ba215f679d9b83586c82ad915418b8c96257025",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Search": "src/"
+                },
+                "psr-4": {
+                    "Eduardo0725\\DigitalCep\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eduardo0725",
+                    "email": "eduardom0142@gmail.com"
+                }
+            ],
+            "description": "Busca de cep online",
+            "time": "2020-05-28T22:24:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

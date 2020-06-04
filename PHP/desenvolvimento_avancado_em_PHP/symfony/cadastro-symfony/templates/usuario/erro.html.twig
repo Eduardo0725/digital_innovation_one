@@ -1,0 +1,18 @@
+{% extends "base.html.twig" %}
+
+{% block title %}cadastro de usuários{% endblock %}
+
+{% block topo %}
+    <div class="topo">
+        <img src="{{ asset('img/digital-logo.png') }}" />
+    </div>
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+{% endblock %}
+
+{% block body %}
+    <p class="msgErro">Ops! Erro ao cadastrar, <strong>{{ fulano }}</strong>!</p>
+    <a href="{{ url('web_usuario_index') }}">Voltar</a>
+{% endblock %}

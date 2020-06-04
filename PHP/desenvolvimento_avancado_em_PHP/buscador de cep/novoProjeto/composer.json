@@ -1,0 +1,15 @@
+{
+    "name": "eduardo0725/novo-projeto",
+    "description": "Projeto em teste",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo0725",
+            "email": "eduardom0142@gmail.com"
+        }
+    ],
+    "require": {
+    	"eduardo0725/digital-cep":"1.0.0"
+    }
+}
